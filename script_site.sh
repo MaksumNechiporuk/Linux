@@ -31,6 +31,7 @@ do
 let c+=1
  wget -P /root/Linux/Download/ $i 
 mv /root/Linux/Download/image*  /root/Linux/Dorwnload/img$c.png
+
 done
 git add -A
 git commit -m "Add scripts_image"
